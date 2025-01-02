@@ -1,0 +1,277 @@
+#navigation
+{
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	height: 50px;
+	width: 100%;
+	background-color: #3E96A8;
+	z-index: 0;
+}
+
+body
+{
+	user-select: none;
+}
+
+h1
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+h2
+{
+	font-family: "Trebuchet MS";
+}
+
+p
+{
+	z-index: 2;
+	font-family: Futura-Normal;
+	text-shadow: 1px 1px 1px black;
+	color: white;
+}
+
+a
+{
+	font-family: "Trebuchet MS";
+}
+
+label
+{
+	font-family: Futura-Normal;
+}
+
+input
+{
+	font-family: "Courier New";
+}
+
+input:hover
+{
+	border: 1px solid black; 
+}
+
+.label
+{
+	position: absolute;
+	left: 100px;
+	top: -8px;
+	width: 220px;
+	height: 50px;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+
+#logo
+{
+	position: inherit;
+	top: 14px;
+	left: 170px;
+	width: 40px;
+}
+
+#firstLink
+{
+	position: inherit;
+	top: 12px;
+	left: 470px;
+	height: 60px;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+#secondLink
+{
+	position: inherit;
+	top: 12px;
+	left: 640px;
+	height: 60px;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+#thirdLink
+{
+	position: inherit;
+	top: 12px;
+	left: 760px;
+	height: 60px;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+#toBring
+{
+	position: inherit;
+	top: 10px;
+	left: 1360px;
+	height: 60px;
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+
+.log_in
+{
+	position: absolute;
+	top: 60px;
+	left: 1510px;
+	border-radius: 20px;
+	width: 400px;
+	height: 400px;
+	font-family: "Helvetica Neue";
+	background-color: #1F9CFF;
+	text-shadow: 1px 1px 1px black;
+	color: white;
+	z-index: 3;
+	text-align: center;
+}
+
+.register
+{
+	position: absolute;
+	top: 60px;
+	left: 1510px;
+	border-radius: 20px;
+	width: 400px;
+	height: 450px;
+	font-family: "Helvetica Neue";
+	background-color: #1F9CFF;
+	text-shadow: 1px 1px 1px black;
+	color: white;
+	z-index: 3;
+	text-align: center;
+}
+
+#h1Enter
+{
+
+}
+
+.login
+{
+	position: inherit;
+	left: 15px;
+	top: 150px;
+}
+
+#login
+{
+	position: inherit;
+	top: 5px;
+	font-size: 20px;
+}
+
+.password
+{
+	position: inherit;
+	left: 15px;
+	top: 200px;
+}
+
+#password
+{
+	position: inherit;
+	top: 5px;
+	font-size: 20px;
+}
+
+.anotherPassword
+{
+	position: inherit;
+	left: -74px;
+	top: 250px;
+	width: 175px;
+	background-color: #1F9CFF;
+	border-radius: 20px;
+}
+
+#labelForPassword2
+{
+	float: left;
+    width: 190px;
+    line-height: 40px;
+    padding-right: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+#Izolenta
+{
+	position: inherit;
+    left: -27px;
+    top: 290px;
+    z-index: 4;
+    width: 41px;
+}
+
+#labelForLogin
+{
+
+	float: left;
+    width: 100px;
+    line-height: 40px;
+    padding-right: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+#labelForPassword
+{
+	float: left;
+    width: 100px;
+    line-height: 40px;
+    padding-right: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.enter
+{
+	position: absolute;
+	top: 15px;
+	left: 1620px;
+	z-index: 1;
+}
+
+#sendData
+{
+	position: inherit;
+	top: 320px;
+	left: 155px;
+	font-size: 18px;
+	padding: .7em 1.5em;
+	background-color: #3E96A8;
+	font-family: Futura-Normal;
+	border: none;
+}
+
+#sendData:hover 
+{
+	background: #1B7E93;
+}
+
+#sendRegister
+{
+	position: inherit;
+    top: 363px;
+    left: 104px;
+	font-size: 18px;
+	padding: .7em 1.5em;
+	background-color: #3E96A8;
+	font-family: Futura-Normal;
+	border: none;
+}
+
+#sendRegister:hover 
+{
+	background: #1B7E93;
+}

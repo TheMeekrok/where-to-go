@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    	<title>Куда поехать</title>
+    	<script
+  		src="https://code.jquery.com/jquery-3.3.1.js"
+  		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  		crossorigin="anonymous"></script>
+  		<script type="text/javascript" src="scripts/handler.js"></script>
+  		<meta charset="utf-8">
+    	<link rel="shortcut icon" href="images/label.ico" type="image/x-icon">
+    	<link rel="stylesheet" type="text/css" href="css/toBring.css">
+    	<link rel="stylesheet" type="text/css" href="css/navigationBar.css">
+	</head>
+	<body>
+		<nav>
+			<div id="navigation">
+				<a href="main.html" title="На главную" class="label">
+					<h1>Куда поехать</h1>
+					<img id="logo" src="images/label.png">
+				</a>
+				<a id="firstLink" href="srednyaya.html">
+					Средняя бухта
+				</a>
+				<a id="secondLink" title="так себе..." href="peschanka.html">
+					Песчанка
+				</a>
+				<a id="thirdLink" href="yaponka.html">
+					Японка
+				</a>
+				<a id="toBring" href="toBring.html">
+					Что взять с собой
+				</a>
+			</div>
+			<span class="enter">
+				<input id="enterButton" type="button" name="" value="Войдите">&nbspили
+				<input id="registerButton" type="button" name="" value="Зарегистрируйтесь">
+			</span>
+			<div>
+				<form method="post" class="log_in" method="post" action="">
+					<h1>Вход</h1>
+					<p class="login">
+						<label id="labelForLogin" for="login">Логин:</label>
+						<input type="text" name="login" id="login">
+					</p>
+					<p class="password">
+						<label id="labelForPassword" for="password">Пароль:</label>
+						<input type="password" name="password" id="password">
+					</p>
+					<input type="submit" name="" value="Войти" id="sendData">
+				</form>
+				<form method="post" class="register">
+					<h1>Регистрация</h1>
+					<p class="login">
+						<label for="login" id="labelForLogin">Логин:</label>
+						<input type="text" name="login" id="login">		
+					</p>
+					<p class="password">
+						<label for="password1" id="labelForPassword">Пароль:</label>
+						<input type="password" id="password" name="password1">
+					</p>
+					<p class="anotherPassword">
+						<label for="password2" id="labelForPassword2">Повторите пароль:</label>
+						<input type="text" id="password" name="password2">
+					</p>
+					<input type="submit" name="" value="Зарегистрироваться" id="sendRegister">
+					<img id="Izolenta" src="nav/1.png">
+				</form>
+			</div>
+		</nav>
+		<div>
+
+		</div>
+	</body>
+</html>
